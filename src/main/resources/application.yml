@@ -1,0 +1,12 @@
+# ===============================
+# = SPRING
+# ===============================
+spring:
+  # ===============================
+  # = DATA SOURCE
+  # ===============================
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    jdbcUrl: jdbc:mysql://192.168.1.16:3307/message?createDatabaseIfNotExist=true
+    username: root
+    password: password
